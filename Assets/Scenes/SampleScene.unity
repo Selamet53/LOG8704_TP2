@@ -1420,7 +1420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CameraToFace: {fileID: 0}
   m_ObjectPrefabs:
-  - {fileID: 919132149155446097, guid: bf9da31fe33fd3e41b704e28f356aa38, type: 3}
+  - {fileID: 8727603318077642370, guid: 9b50ba48901ff5a408f156bedb16d523, type: 3}
   - {fileID: 2190609066077851139, guid: 69a50ab010d2c9b49956d4faa8e6b7c5, type: 3}
   - {fileID: 47499467128052963, guid: 078b5e0d54c24f640a482e8a183fa694, type: 3}
   - {fileID: 2396382253230926051, guid: f5e9d166de04f2442a3c6dfb1d97a332, type: 3}
