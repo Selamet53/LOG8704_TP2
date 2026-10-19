@@ -249,7 +249,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Donkey
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 6cfa0acbae3540f4ebabdf01348545b3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6cfa0acbae3540f4ebabdf01348545b3, type: 3}
@@ -271,6 +272,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6cfa0acbae3540f4ebabdf01348545b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5271734205882431097}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6cfa0acbae3540f4ebabdf01348545b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7991340918849729717}
   m_SourcePrefab: {fileID: 100100000, guid: 6cfa0acbae3540f4ebabdf01348545b3, type: 3}
 --- !u!4 &1525959387001279673 stripped
 Transform:
@@ -379,7 +383,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7991340918849729717}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Touched
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -462,3 +478,25 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!95 &7991340918849729717
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2190609066077851139}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 6cfa0acbae3540f4ebabdf01348545b3, type: 3}
+  m_Controller: {fileID: 9100000, guid: 9a24d6a27e273534fb96560cad99e391, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

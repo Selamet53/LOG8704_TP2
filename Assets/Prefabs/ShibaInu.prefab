@@ -261,6 +261,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShibaInu
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 8325bc6f8094c7c4da7753236417c4c1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ec6f144e8cd0de24ab40f437d7de95d8, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 8325bc6f8094c7c4da7753236417c4c1, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -363,7 +371,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7655660255959123627}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Touched
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -472,5 +492,10 @@ MonoBehaviour:
 --- !u!4 &4386069137835220177 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8325bc6f8094c7c4da7753236417c4c1, type: 3}
+  m_PrefabInstance: {fileID: 4275266079255018298}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7655660255959123627 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 8325bc6f8094c7c4da7753236417c4c1, type: 3}
   m_PrefabInstance: {fileID: 4275266079255018298}
   m_PrefabAsset: {fileID: 0}
