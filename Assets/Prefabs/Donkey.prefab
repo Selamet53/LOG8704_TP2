@@ -249,8 +249,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Donkey
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5866666021909216657, guid: 6cfa0acbae3540f4ebabdf01348545b3, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6cfa0acbae3540f4ebabdf01348545b3, type: 3}
