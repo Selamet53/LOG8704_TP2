@@ -22,12 +22,7 @@ public class GeoTime : MonoBehaviour
     {
         yield return null;
 
-#if UNITY_EDITOR
-        Latitude = 45.5048;
-        Longitude = -73.6132;
-        LocationReady = true;
-        Status = "GPS simulé (éditeur)";
-#elif UNITY_ANDROID
+#if UNITY_ANDROID
         if (!Permission.HasUserAuthorizedPermission(Permission.FineLocation))
         {
             bool answered = false;

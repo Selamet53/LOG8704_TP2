@@ -291,6 +291,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8325bc6f8094c7c4da7753236417c4c1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8237877080946345980}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8325bc6f8094c7c4da7753236417c4c1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4151295887479728617}
   m_SourcePrefab: {fileID: 100100000, guid: 8325bc6f8094c7c4da7753236417c4c1, type: 3}
 --- !u!1 &4005285602655766123 stripped
 GameObject:
@@ -489,6 +492,24 @@ MonoBehaviour:
   m_Elasticity: 0.15
   m_EnableElasticBreakLimit: 1
   m_ElasticBreakLimit: 0.5
+--- !u!114 &4151295887479728617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4005285602655766123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f8d4ad295b2ec7438eae76f6cd8c32e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NightEffect
+  mode: 1
+  nightTint: {r: 0.35, g: 0.4, b: 0.9, a: 1}
+  ghostMaterial: {fileID: 2100000, guid: a787a85bd61cfa44bb4fa36b42d6b1dd, type: 2}
+  dayStart: 6
+  nightStart: 18
+  forceNight: 0
 --- !u!4 &4386069137835220177 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8325bc6f8094c7c4da7753236417c4c1, type: 3}
