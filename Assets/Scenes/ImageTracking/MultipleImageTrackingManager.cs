@@ -1,3 +1,5 @@
+// Source: Vidéo "Multiple Images Tracking Tutorial | Augmented Reality | Unity 6 | AR Foundation 6" de la chaîne "Octe EN" sur YouTube -> https://www.youtube.com/watch?v=bARrOv48ZSQ&t=5s. 
+// C'est le script qui permet d'associer un prefab spécifique à un marqueur spécifique.
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
