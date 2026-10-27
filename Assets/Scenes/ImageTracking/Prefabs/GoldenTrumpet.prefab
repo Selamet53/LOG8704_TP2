@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8882024688423745982}
   - component: {fileID: 3512412448169415840}
   m_Layer: 0
-  m_Name: ImageInfoPrefab
+  m_Name: GoldenTrumpet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
